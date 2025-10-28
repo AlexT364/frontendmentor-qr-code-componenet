@@ -23,6 +23,13 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .qr-code-card {
   background-color: var(--white);
   display: flex;
@@ -32,7 +39,6 @@ body {
   height: 500px;
   border-radius: 20px;
   padding: 18px;
-  margin: 50px auto;
 }
 
 .card-image {
